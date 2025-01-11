@@ -1,0 +1,174 @@
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+from collections import Counter
+from itertools import combinations
+from pyvis.network import Network
+
+subcontinent_colors = {
+    # Africa
+    "Northern Africa": "#2E8B57",             # Sea Green
+    "Sub-Saharan Africa": "#8FBC8F",          # Dark Sea Green
+    "Africa": "#32CD32",                      # Lime Green
+
+    # Americas
+    "Latin America and the Caribbean": "#FF6347",  # Tomato
+    "Northern America": "#FF4500",            # Orange Red
+    "Americas": "#B22222",                    # Firebrick
+
+    # Asia
+    "Central Asia": "#FFD700",                # Gold
+    "Eastern Asia": "#FFEC8B",                # Light Goldenrod Yellow
+    "South-eastern Asia": "#FFA500",          # Orange
+    "Southern Asia": "#FF8C00",               # Dark Orange
+    "Western Asia": "#FFDAB9",                # Peach Puff
+    "Asia": "#FFFFE0",                        # Light Yellow
+
+    # Europe
+    "Eastern Europe": "#1E90FF",              # Dodger Blue
+    "Northern Europe": "#00BFFF",             # Deep Sky Blue
+    "Southern Europe": "#4682B4",             # Steel Blue
+    "Western Europe": "#6495ED",              # Cornflower Blue
+    "Europe": "#4169E1",                      # Royal Blue
+
+    # Oceania
+    "Australia and New Zealand": "#9370DB",   # Medium Purple
+    "Melanesia": "#8A2BE2",                   # Blue Violet
+    "Micronesia": "#BA55D3",                  # Medium Orchid
+    "Polynesia": "#DDA0DD",                   # Plum
+    "Oceania": "#9932CC",                     # Dark Orchid
+
+    # Others
+    "Antarctica": "#E0FFFF",                  # Light Cyan
+    "Arctic": "#00FFFF",                      # Cyan
+    "Atlantic": "#4682B4"                     # Steel Blue
+}
+
+def get_color(subcontinent):
+    if subcontinent in subcontinent_colors:
+        return subcontinent_colors[subcontinent]
+    else:
+        return "#000000"  # Black for ERROR  
+
+def main():
+    # Path to your CSV file
+    csv_file_path = '22072024_Countries aggregated_BrunoGrisci-3007 - Worksheet.csv'
+
+    # Columns to keep
+    columns_to_keep = ['affiliation_country', 'affiliation_subregion_manual', 'affiliation_region_manual', 'SD-related (YES/NO)', 'coverDate']
+
+    # Read the CSV file and keep only the specified columns
+    df = pd.read_csv(csv_file_path, usecols=columns_to_keep)
+
+    # Create a new column "Year" and save the year from "coverDate"
+    df['Year'] = pd.to_datetime(df['coverDate']).dt.year
+
+    # Drop rows where "SD-related (YES/NO)" is "no"
+    df = df[df['SD-related (YES/NO)'].str.lower() == 'yes']
+
+    # Drop rows where "target_region" is "none"
+    df = df[df['affiliation_country'].str.lower() != 'none']
+
+    # Drop rows with NaN values in any column
+    df = df.dropna()
+
+    print(df)
+
+    region_dictionary_csv = '22072024_Countries aggregated_BrunoGrisci-3007 - UN Geoscheme.csv'
+    region_dictionary = pd.read_csv(region_dictionary_csv, usecols=['Country or Area', 'Region Name', 'Sub-region Name'])
+    region_dictionary.replace(r'\s*(.*?)\s*', r'\1', regex=True) 
+    print(region_dictionary)
+    country_to_region = region_dictionary.set_index('Country or Area').T.to_dict('list')
+    subregion_to_region = region_dictionary.set_index('Sub-region Name').T.to_dict('list')
+
+    # Initialize an empty list to hold the edges
+    edges = []
+
+    # Iterate over each row in the DataFrame
+    for _, row in df.iterrows():
+        source_countries = row['affiliation_country'].replace(',',';').split(';')
+        source_countries = list(map(str.strip, source_countries))    
+        if len(source_countries) > 1: 
+            edges = edges + list(combinations(source_countries, 2))
+        else:
+            edges = edges + [(source_countries[0], source_countries[0])]
+
+
+    # Count the occurrences of each edge
+    edge_counts = Counter(edges)
+
+    # Create a directed graph
+    G = nx.Graph()
+
+    # Add edges to the graph with the edge weight based on the count
+    for edge, count in edge_counts.items():
+        G.add_edge(edge[0], edge[1], weight=count)
+
+    print(edge_counts)
+
+    # Calculate centrality measures  
+    degree_centrality = nx.degree_centrality(G)
+    betweenness_centrality = nx.betweenness_centrality(G)
+    closeness_centrality = nx.closeness_centrality(G)
+    eigenvector_centrality = nx.eigenvector_centrality(G)
+
+    # Create a DataFrame with the centrality measures
+    centrality_df = pd.DataFrame({
+        'Node': list(G.nodes),
+        'Degree Centrality': [degree_centrality[node] for node in G.nodes],
+        'Betweenness Centrality': [betweenness_centrality[node] for node in G.nodes],
+        'Closeness Centrality': [closeness_centrality[node] for node in G.nodes],
+        'Eigenvector Centrality': [eigenvector_centrality[node] for node in G.nodes]
+    })
+
+    # Save the centrality measures table to a CSV file
+    centrality_df.to_csv(csv_file_path.replace('.csv', '_authors_centrality.csv'), index=False)
+
+    # Display the centrality measures table
+    print(centrality_df)
+
+    # Convert NetworkX graph to a pyvis network
+    #pyvis_graph = Network(height='100%', width='100%', notebook=False, directed=True)
+    pyvis_graph = Network(height='1500px', width='100%', notebook=False, directed=False)
+
+    # Add nodes and edges to the pyvis network
+    for node in G.nodes:
+        continent = country_to_region.get(node, country_to_region.get(node, [node, node]))  # Default to 'Other' if not found
+        # Check the value of the continent and set the color accordingly
+        color = get_color(continent[1])
+               
+        # Set the node size based on its degree
+        node_size = degree_centrality.get(node, 1) * 100  # Adjust the multiplier as needed for visibility
+        pyvis_graph.add_node(node, size=node_size, color=color)
+
+    for edge in G.edges(data=True):
+        if edge[2]['weight'] > 0:  # Adjust threshold as needed
+            pyvis_graph.add_edge(edge[0], edge[1], value=edge[2]['weight'])
+
+    # Set edge width and physics settings for better visualization
+    pyvis_graph.set_edge_smooth('continuous')
+    #pyvis_graph.show_buttons(filter_=['physics'])
+    #pyvis_graph.show_buttons()
+    pyvis_graph.set_options('''
+    var options = {
+      "physics": {
+        "enabled": true,
+        "barnesHut": {
+          "gravitationalConstant": -2000,
+          "centralGravity": 0.3,
+          "springLength": 150
+        },
+        "maxVelocity": 1,
+        "minVelocity": 0.1,
+        "solver": "barnesHut",
+        "timestep": 0.5,
+        "adaptiveTimestep": true
+      }
+    }
+    ''')
+
+    # Save the interactive visualization to an HTML file
+    pyvis_graph.show(csv_file_path.replace('.csv', '_authors.html'), notebook=False)
+
+if __name__ == '__main__':
+    main()
