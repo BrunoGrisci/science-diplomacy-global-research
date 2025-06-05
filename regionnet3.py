@@ -86,11 +86,11 @@ def main():
 
         print(df)
 
-        valid_nodes_csv = '22072024_Countries aggregated_BrunoGrisci-3007 - validnodes.csv'
+        valid_nodes_csv = '22072024_Countries aggregated_BG-3007 - validnodes.csv'
         valid_nodes = pd.read_csv(valid_nodes_csv)
         valid_nodes.replace(r'\s*(.*?)\s*', r'\1', regex=True) 
 
-        region_dictionary_csv = '22072024_Countries aggregated_BrunoGrisci-3007 - UN Geoscheme.csv'
+        region_dictionary_csv = '22072024_Countries aggregated_BG-3007 - UN Geoscheme.csv'
         region_dictionary = pd.read_csv(region_dictionary_csv, usecols=['Country or Area', 'Region Name', 'Sub-region Name'])
         print(region_dictionary)
         country_to_region = region_dictionary.set_index('Country or Area').T.to_dict('list')

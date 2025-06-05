@@ -56,7 +56,7 @@ def main():
         # Drop rows with NaN values in any column
         df = df.dropna()
 
-        region_dictionary_csv = '22072024_Countries aggregated_BrunoGrisci-3007 - UN Geoscheme.csv'
+        region_dictionary_csv = '22072024_Countries aggregated_BG-3007 - UN Geoscheme.csv'
         region_dictionary = pd.read_csv(region_dictionary_csv, usecols=['Country or Area', 'Region Name', 'Sub-region Name'])
         region_dictionary.replace(r'\s*(.*?)\s*', r'\1', regex=True) 
         print(region_dictionary)
