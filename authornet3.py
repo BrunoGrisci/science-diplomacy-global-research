@@ -7,7 +7,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from collections import Counter
 from itertools import combinations
-from pyvis.network import Network
+#from pyvis.network import Network
 
 from color_scheme import subcontinent_colors
 
@@ -65,16 +65,19 @@ def main():
 
         # Initialize an empty list to hold the edges
         edges = []
+        nodes = []
 
         # Iterate over each row in the DataFrame
         for _, row in df.iterrows():
             source_countries = row['affiliation_country'].replace(',',';').split(';')
             source_countries = list(map(str.strip, source_countries))    
+            nodes = nodes + source_countries
             if len(source_countries) > 1: 
                 edges = edges + list(combinations(source_countries, 2))
             else:
                 edges = edges + [(source_countries[0], source_countries[0])]
 
+        nodes = list(set(nodes))
 
         # Count the occurrences of each edge
         edge_counts = Counter(edges)
@@ -82,9 +85,28 @@ def main():
         # Create a directed graph
         G = nx.Graph()
 
+        # Count occurrences of each country (node) in the affiliation data
+        node_occurrences = df['affiliation_country'].str.split(';').explode().str.strip().value_counts()
+        print(node_occurrences)
+
+        # Add nodes and edges to the pyvis network
+        for node in nodes:
+            continent = country_to_region.get(node, country_to_region.get(node, [node, node]))  # Default to 'Other' if not found
+            # Check the value of the continent and set the color accordingly
+            color = get_color(continent[1])
+            # Set the node size based on its occurrence in the data
+            node_size = int(node_occurrences.get(node, 1))  # Adjust multiplier for visibility
+            G.add_node(node, color=color, weight=node_size)
+
+        print(G)
+        print(nx.get_node_attributes(G, "color"))
+
         # Add edges to the graph with the edge weight based on the count
         for edge, count in edge_counts.items():
-            G.add_edge(edge[0], edge[1], weight=count)
+            G.add_edge(edge[0], edge[1], weight=count, color=nx.get_node_attributes(G, "color")[edge[0]])
+
+        print(G)
+        nx.write_gexf(G, output_dir + csv_final_path.replace('.csv', '.gexf'))
 
         print(edge_counts)
 
@@ -111,21 +133,11 @@ def main():
 
         # Convert NetworkX graph to a pyvis network
         #pyvis_graph = Network(height='100%', width='100%', notebook=False, directed=True)
-        pyvis_graph = Network(height='1500px', width='100%', notebook=False, directed=False)
+        #pyvis_graph = Network(height='1500px', width='100%', notebook=False, directed=False)
 
-        # Count occurrences of each country (node) in the affiliation data
-        node_occurrences = df['affiliation_country'].str.split(';').explode().str.strip().value_counts()
-        print(node_occurrences)
 
-        # Add nodes and edges to the pyvis network
-        for node in G.nodes:
-            continent = country_to_region.get(node, country_to_region.get(node, [node, node]))  # Default to 'Other' if not found
-            # Check the value of the continent and set the color accordingly
-            color = get_color(continent[1])
-                   
-            # Set the node size based on its occurrence in the data
-            node_size = int(node_occurrences.get(node, 1))  # Adjust multiplier for visibility
 
+        '''
             pyvis_graph.add_node(node, size=node_size, color=color)
 
         for edge in G.edges(data=True):
@@ -137,6 +149,7 @@ def main():
         #pyvis_graph.show_buttons(filter_=['physics'])
         #pyvis_graph.show_buttons()
         pyvis_graph.set_options('''
+        '''
         var options = {
           "physics": {
             "enabled": true,
@@ -152,10 +165,12 @@ def main():
             "adaptiveTimestep": true
           }
         }
-        ''')
+        '''
+        '''
 
         # Save the interactive visualization to an HTML file
         pyvis_graph.save_graph(output_dir + csv_final_path.replace('.csv', '_authors.html'))
+        '''
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,1532 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-04">
+    <creator>NetworkX 2.8.8</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="color" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="color" type="string" />
+      <attribute id="1" title="weight" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Armenia" label="Armenia">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="United Kingdom" label="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="#5A8BC6" />
+          <attvalue for="1" value="0.04597701149425287" />
+        </attvalues>
+      </node>
+      <node id="Brunei" label="Brunei">
+        <attvalues>
+          <attvalue for="0" value="#FF8075" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Japan" label="Japan">
+        <attvalues>
+          <attvalue for="0" value="#FF5548" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Canada" label="Canada">
+        <attvalues>
+          <attvalue for="0" value="#5FBA91" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Denmark" label="Denmark">
+        <attvalues>
+          <attvalue for="0" value="#5A8BC6" />
+          <attvalue for="1" value="0.04597701149425287" />
+        </attvalues>
+      </node>
+      <node id="Europe" label="Europe">
+        <attvalues>
+          <attvalue for="0" value="#5C9FD6" />
+          <attvalue for="1" value="0.1954022988505747" />
+        </attvalues>
+      </node>
+      <node id="Tunisia" label="Tunisia">
+        <attvalues>
+          <attvalue for="0" value="#D6AA7F" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Western Europe" label="Western Europe">
+        <attvalues>
+          <attvalue for="0" value="#5C9FD6" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Eastern Europe" label="Eastern Europe">
+        <attvalues>
+          <attvalue for="0" value="#5C9FD6" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Mauritania" label="Mauritania">
+        <attvalues>
+          <attvalue for="0" value="#A96A3B" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Viet Nam" label="Viet Nam">
+        <attvalues>
+          <attvalue for="0" value="#FF8075" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Sierra Leone" label="Sierra Leone">
+        <attvalues>
+          <attvalue for="0" value="#A96A3B" />
+          <attvalue for="1" value="0.09195402298850575" />
+        </attvalues>
+      </node>
+      <node id="Africa" label="Africa">
+        <attvalues>
+          <attvalue for="0" value="#C99358" />
+          <attvalue for="1" value="0.05747126436781609" />
+        </attvalues>
+      </node>
+      <node id="Sweden" label="Sweden">
+        <attvalues>
+          <attvalue for="0" value="#5A8BC6" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Belarus" label="Belarus">
+        <attvalues>
+          <attvalue for="0" value="#6C9FD8" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Singapore" label="Singapore">
+        <attvalues>
+          <attvalue for="0" value="#FF8075" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Russian Federation" label="Russian Federation">
+        <attvalues>
+          <attvalue for="0" value="#6C9FD8" />
+          <attvalue for="1" value="0.09195402298850575" />
+        </attvalues>
+      </node>
+      <node id="Switzerland" label="Switzerland">
+        <attvalues>
+          <attvalue for="0" value="#82B1E0" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="United Arab Emirates" label="United Arab Emirates">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Sudan" label="Sudan">
+        <attvalues>
+          <attvalue for="0" value="#D6AA7F" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Croatia" label="Croatia">
+        <attvalues>
+          <attvalue for="0" value="#A3C4E8" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Moldova" label="Moldova">
+        <attvalues>
+          <attvalue for="0" value="#6C9FD8" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="New Zealand" label="New Zealand">
+        <attvalues>
+          <attvalue for="0" value="#FFDB6E" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Malta" label="Malta">
+        <attvalues>
+          <attvalue for="0" value="#A3C4E8" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Iceland" label="Iceland">
+        <attvalues>
+          <attvalue for="0" value="#5A8BC6" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="#82B1E0" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Kuwait" label="Kuwait">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Azerbaijan" label="Azerbaijan">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Spain" label="Spain">
+        <attvalues>
+          <attvalue for="0" value="#A3C4E8" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Palestine" label="Palestine">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="#FF5548" />
+          <attvalue for="1" value="0.12643678160919541" />
+        </attvalues>
+      </node>
+      <node id="Poland" label="Poland">
+        <attvalues>
+          <attvalue for="0" value="#6C9FD8" />
+          <attvalue for="1" value="0.034482758620689655" />
+        </attvalues>
+      </node>
+      <node id="Italy" label="Italy">
+        <attvalues>
+          <attvalue for="0" value="#A3C4E8" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Bahrain" label="Bahrain">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="South Korea" label="South Korea">
+        <attvalues>
+          <attvalue for="0" value="#FF5548" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Jordan" label="Jordan">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Antarctica" label="Antarctica">
+        <attvalues>
+          <attvalue for="0" value="#B2E5FF" />
+          <attvalue for="1" value="0.06896551724137931" />
+        </attvalues>
+      </node>
+      <node id="Greenland" label="Greenland">
+        <attvalues>
+          <attvalue for="0" value="#5FBA91" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Afghanistan" label="Afghanistan">
+        <attvalues>
+          <attvalue for="0" value="#FF6251" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Ukraine" label="Ukraine">
+        <attvalues>
+          <attvalue for="0" value="#6C9FD8" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="India" label="India">
+        <attvalues>
+          <attvalue for="0" value="#FF6251" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Yemen" label="Yemen">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Saudi Arabia" label="Saudi Arabia">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Turkmenistan" label="Turkmenistan">
+        <attvalues>
+          <attvalue for="0" value="#E48760" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Uzbekistan" label="Uzbekistan">
+        <attvalues>
+          <attvalue for="0" value="#E48760" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Egypt" label="Egypt">
+        <attvalues>
+          <attvalue for="0" value="#D6AA7F" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="South Africa" label="South Africa">
+        <attvalues>
+          <attvalue for="0" value="#A96A3B" />
+          <attvalue for="1" value="0.04597701149425287" />
+        </attvalues>
+      </node>
+      <node id="Arctic" label="Arctic">
+        <attvalues>
+          <attvalue for="0" value="#D8FFFF" />
+          <attvalue for="1" value="0.11494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Australia" label="Australia">
+        <attvalues>
+          <attvalue for="0" value="#FFDB6E" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Mexico" label="Mexico">
+        <attvalues>
+          <attvalue for="0" value="#70D467" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Pakistan" label="Pakistan">
+        <attvalues>
+          <attvalue for="0" value="#FF6251" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Libya" label="Libya">
+        <attvalues>
+          <attvalue for="0" value="#D6AA7F" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Asia" label="Asia">
+        <attvalues>
+          <attvalue for="0" value="#FF4A3C" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Malaysia" label="Malaysia">
+        <attvalues>
+          <attvalue for="0" value="#FF8075" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Morocco" label="Morocco">
+        <attvalues>
+          <attvalue for="0" value="#D6AA7F" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Norway" label="Norway">
+        <attvalues>
+          <attvalue for="0" value="#5A8BC6" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="United States of America" label="United States of America">
+        <attvalues>
+          <attvalue for="0" value="#5FBA91" />
+          <attvalue for="1" value="0.26436781609195403" />
+        </attvalues>
+      </node>
+      <node id="Barbados" label="Barbados">
+        <attvalues>
+          <attvalue for="0" value="#70D467" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Northern Africa" label="Northern Africa">
+        <attvalues>
+          <attvalue for="0" value="#C99358" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Philippines" label="Philippines">
+        <attvalues>
+          <attvalue for="0" value="#FF8075" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Chile" label="Chile">
+        <attvalues>
+          <attvalue for="0" value="#70D467" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Iran" label="Iran">
+        <attvalues>
+          <attvalue for="0" value="#FF6251" />
+          <attvalue for="1" value="0.04597701149425287" />
+        </attvalues>
+      </node>
+      <node id="Belgium" label="Belgium">
+        <attvalues>
+          <attvalue for="0" value="#82B1E0" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Brazil" label="Brazil">
+        <attvalues>
+          <attvalue for="0" value="#70D467" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Oman" label="Oman">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Algeria" label="Algeria">
+        <attvalues>
+          <attvalue for="0" value="#D6AA7F" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Qatar" label="Qatar">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Djibouti" label="Djibouti">
+        <attvalues>
+          <attvalue for="0" value="#A96A3B" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Kazakhstan" label="Kazakhstan">
+        <attvalues>
+          <attvalue for="0" value="#E48760" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Turkey" label="Turkey">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Northern America" label="Northern America">
+        <attvalues>
+          <attvalue for="0" value="#4AA070" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Latin America and the Caribbean" label="Latin America and the Caribbean">
+        <attvalues>
+          <attvalue for="0" value="#4AA070" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Austria" label="Austria">
+        <attvalues>
+          <attvalue for="0" value="#82B1E0" />
+          <attvalue for="1" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Eastern Asia" label="Eastern Asia">
+        <attvalues>
+          <attvalue for="0" value="#FF4A3C" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Syria" label="Syria">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Lebanon" label="Lebanon">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Iraq" label="Iraq">
+        <attvalues>
+          <attvalue for="0" value="#FF6D4A" />
+          <attvalue for="1" value="0.034482758620689655" />
+        </attvalues>
+      </node>
+      <node id="Tajikistan" label="Tajikistan">
+        <attvalues>
+          <attvalue for="0" value="#E48760" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Indonesia" label="Indonesia">
+        <attvalues>
+          <attvalue for="0" value="#FF8075" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Taiwan" label="Taiwan">
+        <attvalues>
+          <attvalue for="0" value="#FF5548" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Czechia" label="Czechia">
+        <attvalues>
+          <attvalue for="0" value="#6C9FD8" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Germany" label="Germany">
+        <attvalues>
+          <attvalue for="0" value="#82B1E0" />
+          <attvalue for="1" value="0.034482758620689655" />
+        </attvalues>
+      </node>
+      <node id="Bolivia" label="Bolivia">
+        <attvalues>
+          <attvalue for="0" value="#70D467" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Panama" label="Panama">
+        <attvalues>
+          <attvalue for="0" value="#70D467" />
+          <attvalue for="1" value="0.022988505747126436" />
+        </attvalues>
+      </node>
+      <node id="Kyrgyzstan" label="Kyrgyzstan">
+        <attvalues>
+          <attvalue for="0" value="#E48760" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Slovenia" label="Slovenia">
+        <attvalues>
+          <attvalue for="0" value="#A3C4E8" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+      <node id="Slovakia" label="Slovakia">
+        <attvalues>
+          <attvalue for="0" value="#6C9FD8" />
+          <attvalue for="1" value="0.011494252873563218" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="United Kingdom" target="Europe" id="0" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="United Kingdom" target="Africa" id="1" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="United Kingdom" target="Sierra Leone" id="2" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="United Kingdom" target="United States of America" id="3" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Japan" id="4" weight="3">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="United States of America" id="5" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="China" id="6" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="South Korea" id="7" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Northern Africa" id="8" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Mauritania" id="9" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Sudan" id="10" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Lebanon" id="11" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Palestine" id="12" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Iraq" id="13" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Iran" id="14" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Kuwait" id="15" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Yemen" id="16" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Djibouti" id="17" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Oman" id="18" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Qatar" id="19" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Afghanistan" id="20" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Pakistan" id="21" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Saudi Arabia" id="22" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="United Arab Emirates" id="23" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Morocco" id="24" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Algeria" id="25" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Tunisia" id="26" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Libya" id="27" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Egypt" id="28" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Canada" target="Bolivia" id="29" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Canada" target="South Africa" id="30" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Canada" target="Panama" id="31" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Canada" target="Russian Federation" id="32" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Canada" target="Arctic" id="33" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Canada" target="China" id="34" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Canada" target="Europe" id="35" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Canada" target="United States of America" id="36" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Denmark" target="Europe" id="37" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Denmark" target="Africa" id="38" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Denmark" target="Arctic" id="39" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Denmark" target="China" id="40" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Denmark" target="United States of America" id="41" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Sweden" target="Arctic" id="42" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Sweden" target="China" id="43" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Sweden" target="Europe" id="44" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Sweden" target="United States of America" id="45" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Singapore" target="Slovenia" id="46" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Singapore" target="Denmark" id="47" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Singapore" target="United States of America" id="48" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Russian Federation" id="49" weight="7">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Arctic" id="50" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Poland" id="51" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Eastern Europe" id="52" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Western Europe" id="53" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Belarus" id="54" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Africa" id="55" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Asia" id="56" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Europe" id="57" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Northern America" id="58" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Latin America and the Caribbean" id="59" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="United Kingdom" id="60" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="United States of America" id="61" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Mexico" id="62" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Sweden" id="63" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Switzerland" id="64" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Armenia" id="65" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Kazakhstan" id="66" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Turkmenistan" id="67" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Azerbaijan" id="68" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Moldova" id="69" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Ukraine" id="70" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Uzbekistan" id="71" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Tajikistan" id="72" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Kyrgyzstan" id="73" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="Brazil" id="74" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="China" id="75" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="South Africa" id="76" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Russian Federation" target="France" id="77" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Switzerland" target="Europe" id="78" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Switzerland" target="Switzerland" id="79" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Switzerland" target="Croatia" id="80" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Switzerland" target="Sierra Leone" id="81" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Switzerland" target="United States of America" id="82" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="New Zealand" target="Australia" id="83" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FFDB6E" />
+        </attvalues>
+      </edge>
+      <edge source="New Zealand" target="South Africa" id="84" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FFDB6E" />
+        </attvalues>
+      </edge>
+      <edge source="New Zealand" target="Antarctica" id="85" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FFDB6E" />
+        </attvalues>
+      </edge>
+      <edge source="Iceland" target="Arctic" id="86" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Iceland" target="China" id="87" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Iceland" target="Europe" id="88" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Iceland" target="United States of America" id="89" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="Russian Federation" id="90" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Spain" target="Europe" id="91" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A3C4E8" />
+        </attvalues>
+      </edge>
+      <edge source="Spain" target="Sierra Leone" id="92" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A3C4E8" />
+        </attvalues>
+      </edge>
+      <edge source="Spain" target="United States of America" id="93" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A3C4E8" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="China" id="94" weight="4">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Arctic" id="95" weight="5">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Antarctica" id="96" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Russian Federation" id="97" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Canada" id="98" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Denmark" id="99" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Greenland" id="100" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Norway" id="101" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="United States of America" id="102" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="Europe" id="103" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Poland" target="United States of America" id="104" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Poland" target="Poland" id="105" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Italy" target="Europe" id="106" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A3C4E8" />
+        </attvalues>
+      </edge>
+      <edge source="Italy" target="Sierra Leone" id="107" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A3C4E8" />
+        </attvalues>
+      </edge>
+      <edge source="Italy" target="United States of America" id="108" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A3C4E8" />
+        </attvalues>
+      </edge>
+      <edge source="South Korea" target="Russian Federation" id="109" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="South Korea" target="United States of America" id="110" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="India" id="111" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="China" id="112" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="Arctic" id="113" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="Antarctica" id="114" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="Denmark" id="115" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="Europe" id="116" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="Sierra Leone" id="117" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="India" target="United States of America" id="118" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="South Africa" target="Europe" id="119" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#A96A3B" />
+        </attvalues>
+      </edge>
+      <edge source="South Africa" target="Africa" id="120" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A96A3B" />
+        </attvalues>
+      </edge>
+      <edge source="South Africa" target="Sierra Leone" id="121" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A96A3B" />
+        </attvalues>
+      </edge>
+      <edge source="South Africa" target="United States of America" id="122" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#A96A3B" />
+        </attvalues>
+      </edge>
+      <edge source="Australia" target="Chile" id="123" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FFDB6E" />
+        </attvalues>
+      </edge>
+      <edge source="Australia" target="Antarctica" id="124" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FFDB6E" />
+        </attvalues>
+      </edge>
+      <edge source="Australia" target="United Kingdom" id="125" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FFDB6E" />
+        </attvalues>
+      </edge>
+      <edge source="Australia" target="Indonesia" id="126" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FFDB6E" />
+        </attvalues>
+      </edge>
+      <edge source="Australia" target="United States of America" id="127" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FFDB6E" />
+        </attvalues>
+      </edge>
+      <edge source="Malaysia" target="Malaysia" id="128" weight="3">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Malaysia" target="Iran" id="129" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Malaysia" target="Antarctica" id="130" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Malaysia" target="Arctic" id="131" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Norway" target="Arctic" id="132" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Norway" target="China" id="133" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Norway" target="Europe" id="134" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="Norway" target="United States of America" id="135" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5A8BC6" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="United States of America" id="136" weight="10">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Iraq" id="137" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Russian Federation" id="138" weight="4">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Japan" id="139" weight="3">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="China" id="140" weight="3">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Arctic" id="141" weight="4">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Antarctica" id="142" weight="3">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Bolivia" id="143" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="South Africa" id="144" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Panama" id="145" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Barbados" id="146" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Eastern Asia" id="147" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Germany" id="148" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Canada" id="149" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Denmark" id="150" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Greenland" id="151" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Norway" id="152" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Europe" id="153" weight="3">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Bahrain" id="154" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Egypt" id="155" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Iran" id="156" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Jordan" id="157" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Kuwait" id="158" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Lebanon" id="159" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Libya" id="160" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Syria" id="161" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Turkey" id="162" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="United Arab Emirates" id="163" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="United Kingdom" id="164" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Malta" id="165" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Northern America" id="166" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Sierra Leone" id="167" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="Singapore" id="168" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Iran" target="Malaysia" id="169" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="Iran" target="Iran" id="170" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6251" />
+        </attvalues>
+      </edge>
+      <edge source="Belgium" target="Europe" id="171" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Belgium" target="United States of America" id="172" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Kazakhstan" target="Kazakhstan" id="173" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#E48760" />
+        </attvalues>
+      </edge>
+      <edge source="Turkey" target="Europe" id="174" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6D4A" />
+        </attvalues>
+      </edge>
+      <edge source="Turkey" target="Sierra Leone" id="175" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6D4A" />
+        </attvalues>
+      </edge>
+      <edge source="Turkey" target="United States of America" id="176" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6D4A" />
+        </attvalues>
+      </edge>
+      <edge source="Austria" target="Russian Federation" id="177" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Austria" target="Europe" id="178" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Austria" target="Africa" id="179" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Iraq" target="United States of America" id="180" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6D4A" />
+        </attvalues>
+      </edge>
+      <edge source="Iraq" target="Iraq" id="181" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF6D4A" />
+        </attvalues>
+      </edge>
+      <edge source="Indonesia" target="Philippines" id="182" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Indonesia" target="Viet Nam" id="183" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Indonesia" target="China" id="184" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Indonesia" target="Brunei" id="185" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Indonesia" target="Taiwan" id="186" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+      <edge source="Czechia" target="Eastern Europe" id="187" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Czechia" target="Czechia" id="188" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Czechia" target="Slovakia" id="189" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Czechia" target="Russian Federation" id="190" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Czechia" target="Poland" id="191" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Czechia" target="Germany" id="192" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Germany" target="France" id="193" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Germany" target="United Kingdom" id="194" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Germany" target="United States of America" id="195" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="Germany" target="Germany" id="196" weight="2">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

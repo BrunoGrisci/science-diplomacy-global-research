@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-06-04">
+    <creator>NetworkX 2.8.8</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="color" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="color" type="string" />
+      <attribute id="1" title="weight" type="long" />
+    </attributes>
+    <nodes>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="#FF5548" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Japan" label="Japan">
+        <attvalues>
+          <attvalue for="0" value="#FF5548" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hungary" label="Hungary">
+        <attvalues>
+          <attvalue for="0" value="#6C9FD8" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="Switzerland" label="Switzerland">
+        <attvalues>
+          <attvalue for="0" value="#82B1E0" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="United States of America" label="United States of America">
+        <attvalues>
+          <attvalue for="0" value="#5FBA91" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="Malaysia" label="Malaysia">
+        <attvalues>
+          <attvalue for="0" value="#FF8075" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="China" target="Switzerland" id="0" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="China" target="United States of America" id="1" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Japan" target="Japan" id="2" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF5548" />
+        </attvalues>
+      </edge>
+      <edge source="Hungary" target="United States of America" id="3" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#6C9FD8" />
+        </attvalues>
+      </edge>
+      <edge source="Switzerland" target="United States of America" id="4" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#82B1E0" />
+        </attvalues>
+      </edge>
+      <edge source="United States of America" target="United States of America" id="5" weight="7">
+        <attvalues>
+          <attvalue for="2" value="#5FBA91" />
+        </attvalues>
+      </edge>
+      <edge source="Malaysia" target="Malaysia" id="6" weight="1">
+        <attvalues>
+          <attvalue for="2" value="#FF8075" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

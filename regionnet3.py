@@ -6,7 +6,7 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 from collections import Counter
-from pyvis.network import Network
+#from pyvis.network import Network
 import warnings
 import csv
 
@@ -99,6 +99,7 @@ def main():
         print(subregion_to_region)
 
         # Initialize an empty list to hold the edges
+        nodes = []
         edges = []
 
         # Iterate over each row in the DataFrame
@@ -138,6 +139,8 @@ def main():
             for from_region in source_list:
                 for to_region in target_list:
                     edges.append((from_region, to_region)) 
+                    nodes.append(from_region)
+                    nodes.append(to_region)
 
         # Count the occurrences of each edge
         edge_counts = Counter(edges)
@@ -162,9 +165,24 @@ def main():
         # Create a directed graph
         G = nx.DiGraph()
 
+        print(G)
+
+        nodes = list(set(nodes))
+        for node in nodes:
+            
+            continent = country_to_region.get(node, None)  # Default to 'Other' if not found
+            if not continent:
+                continent = subregion_to_region.get(node, [node, node])
+            # Check the value of the continent and set the color accordingly
+            color = get_color(continent[1])                 
+            G.add_node(node, color=color)
+
+        print(G)
+        print(nx.get_node_attributes(G, "color"))
+
         # Add edges to the graph with the edge weight based on the count
         for edge, count in edge_counts.items():
-            G.add_edge(edge[0], edge[1], weight=count)
+            G.add_edge(edge[0], edge[1], weight=count, color=nx.get_node_attributes(G, "color")[edge[0]])
             
             if not valid_nodes['NODES'].str.contains(edge[0]).any():
                 warnings.warn("WARNING: {} not in valid nodes!".format(edge[0]))
@@ -197,6 +215,17 @@ def main():
         # Display the centrality measures table
         print(centrality_df)
 
+        node_weights = {}
+        for node in nodes:
+            # Set the node size based on its in-degree
+            node_size = in_degree_centrality.get(node, 1) # Adjust the multiplier as needed for visibility   
+            node_weights[node] = node_size
+        nx.set_node_attributes(G, node_weights, "weight")        
+
+        print(G)
+        nx.write_gexf(G, output_dir + csv_final_path.replace('.csv', '.gexf'))
+
+        '''
         # Convert NetworkX graph to a pyvis network
         #pyvis_graph = Network(height='100%', width='100%', notebook=False, directed=True)
         pyvis_graph = Network(height='1500px', width='100%', notebook=False, directed=True)
@@ -222,6 +251,7 @@ def main():
         #pyvis_graph.show_buttons(filter_=['physics'])
         #pyvis_graph.show_buttons()
         pyvis_graph.set_options('''
+        '''
         var options = {
           "physics": {
             "enabled": true,
@@ -237,11 +267,12 @@ def main():
             "adaptiveTimestep": true
           }
         }
-        ''')
-
+        '''
+        '''
         # Save the interactive visualization to an HTML file
         #pyvis_graph.show(output_dir + csv_final_path.replace('.csv', '.html'), notebook=False)
         pyvis_graph.save_graph(output_dir + csv_final_path.replace('.csv', '.html'))
+        '''
 
 if __name__ == '__main__':
     main()

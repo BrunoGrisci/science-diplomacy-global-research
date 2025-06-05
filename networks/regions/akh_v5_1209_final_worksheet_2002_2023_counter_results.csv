@@ -1,0 +1,527 @@
+Item,Count
+"('Saudi Arabia', 'Iran')",1
+"('Saudi Arabia', 'Oman')",1
+"('Saudi Arabia', 'United Arab Emirates')",1
+"('Saudi Arabia', 'Saudi Arabia')",1
+"('Saudi Arabia', 'Qatar')",1
+"('Saudi Arabia', 'Bahrain')",1
+"('Saudi Arabia', 'Kuwait')",1
+"('Saudi Arabia', 'Iraq')",1
+"('Qatar', 'Iran')",1
+"('Qatar', 'Oman')",1
+"('Qatar', 'United Arab Emirates')",1
+"('Qatar', 'Saudi Arabia')",1
+"('Qatar', 'Qatar')",1
+"('Qatar', 'Bahrain')",1
+"('Qatar', 'Kuwait')",1
+"('Qatar', 'Iraq')",1
+"('Iraq', 'Iran')",1
+"('Iraq', 'Oman')",1
+"('Iraq', 'United Arab Emirates')",1
+"('Iraq', 'Saudi Arabia')",1
+"('Iraq', 'Qatar')",1
+"('Iraq', 'Bahrain')",1
+"('Iraq', 'Kuwait')",1
+"('Iraq', 'Iraq')",2
+"('United Arab Emirates', 'Iran')",1
+"('United Arab Emirates', 'Oman')",1
+"('United Arab Emirates', 'United Arab Emirates')",1
+"('United Arab Emirates', 'Saudi Arabia')",1
+"('United Arab Emirates', 'Qatar')",1
+"('United Arab Emirates', 'Bahrain')",1
+"('United Arab Emirates', 'Kuwait')",1
+"('United Arab Emirates', 'Iraq')",1
+"('Kuwait', 'Iran')",1
+"('Kuwait', 'Oman')",1
+"('Kuwait', 'United Arab Emirates')",1
+"('Kuwait', 'Saudi Arabia')",1
+"('Kuwait', 'Qatar')",1
+"('Kuwait', 'Bahrain')",1
+"('Kuwait', 'Kuwait')",1
+"('Kuwait', 'Iraq')",1
+"('Iran', 'Iran')",2
+"('Iran', 'Oman')",1
+"('Iran', 'United Arab Emirates')",1
+"('Iran', 'Saudi Arabia')",1
+"('Iran', 'Qatar')",1
+"('Iran', 'Bahrain')",1
+"('Iran', 'Kuwait')",1
+"('Iran', 'Iraq')",1
+"('United States of America', 'Iran')",2
+"('United States of America', 'Oman')",1
+"('United States of America', 'United Arab Emirates')",2
+"('United States of America', 'Saudi Arabia')",1
+"('United States of America', 'Qatar')",1
+"('United States of America', 'Bahrain')",2
+"('United States of America', 'Kuwait')",2
+"('United States of America', 'Iraq')",3
+"('United Kingdom', 'Iran')",1
+"('United Kingdom', 'Oman')",1
+"('United Kingdom', 'United Arab Emirates')",1
+"('United Kingdom', 'Saudi Arabia')",1
+"('United Kingdom', 'Qatar')",1
+"('United Kingdom', 'Bahrain')",1
+"('United Kingdom', 'Kuwait')",1
+"('United Kingdom', 'Iraq')",1
+"('Norway', 'Arctic')",6
+"('Russian Federation', 'Arctic')",14
+"('Russian Federation', 'Russian Federation')",35
+"('Sweden', 'Arctic')",4
+"('France', 'Latin America and the Caribbean')",2
+"('France', 'Europe')",2
+"('Colombia', 'Latin America and the Caribbean')",3
+"('Colombia', 'Europe')",2
+"('Brazil', 'Latin America and the Caribbean')",3
+"('Brazil', 'Europe')",1
+"('Germany', 'Latin America and the Caribbean')",2
+"('Germany', 'Europe')",3
+"('Venezuela', 'Latin America and the Caribbean')",1
+"('Venezuela', 'Europe')",1
+"('United Kingdom', 'Latin America and the Caribbean')",1
+"('United Kingdom', 'Europe')",3
+"('Guatemala', 'Latin America and the Caribbean')",1
+"('Guatemala', 'Europe')",1
+"('Italy', 'Latin America and the Caribbean')",1
+"('Italy', 'Europe')",3
+"('Belgium', 'Latin America and the Caribbean')",1
+"('Belgium', 'Europe')",5
+"('Morocco', 'Egypt')",1
+"('Morocco', 'Morocco')",1
+"('Morocco', 'South Africa')",1
+"('Botswana', 'United States of America')",1
+"('Botswana', 'Thailand')",1
+"('Botswana', 'Botswana')",1
+"('United States of America', 'United States of America')",27
+"('United States of America', 'Thailand')",1
+"('United States of America', 'Botswana')",1
+"('Thailand', 'United States of America')",1
+"('Thailand', 'Thailand')",1
+"('Thailand', 'Botswana')",1
+"('United Kingdom', 'China')",2
+"('United Kingdom', 'United Kingdom')",5
+"('Spain', 'Japan')",1
+"('Spain', 'India')",1
+"('United Kingdom', 'Switzerland')",1
+"('Denmark', 'Switzerland')",1
+"('Portugal', 'Portugal')",4
+"('Portugal', 'Europe')",1
+"('Portugal', 'Africa')",1
+"('India', 'India')",9
+"('India', 'United Kingdom')",1
+"('Belgium', 'Africa')",1
+"('South Africa', 'Africa')",5
+"('South Africa', 'Europe')",3
+"('Ethiopia', 'Africa')",1
+"('Ethiopia', 'Europe')",1
+"('Italy', 'United States of America')",2
+"('Italy', 'Italy')",2
+"('United Kingdom', 'Portugal')",1
+"('Portugal', 'United Kingdom')",1
+"('Japan', 'United Kingdom')",1
+"('Japan', 'Turkey')",1
+"('Japan', 'Pakistan')",2
+"('Russian Federation', 'Canada')",1
+"('Russian Federation', 'United States of America')",8
+"('Russian Federation', 'China')",4
+"('Malaysia', 'Malaysia')",4
+"('United Kingdom', 'Mongolia')",1
+"('South Korea', 'Russian Federation')",3
+"('South Korea', 'South Korea')",1
+"('Kazakhstan', 'Russian Federation')",1
+"('Kazakhstan', 'Central Asia')",1
+"('South Korea', 'United States of America')",2
+"('Germany', 'Italy')",2
+"('Germany', 'United States of America')",5
+"('Germany', 'United Kingdom')",2
+"('Netherlands', 'United States of America')",1
+"('Netherlands', 'Cuba')",1
+"('Netherlands', 'Iran')",1
+"('South Africa', 'Singapore')",1
+"('South Africa', 'Malaysia')",1
+"('South Africa', 'Sri Lanka')",1
+"('Nepal', 'Nepal')",2
+"('Sri Lanka', 'South Korea')",1
+"('Sri Lanka', 'China')",1
+"('Sri Lanka', 'Mongolia')",1
+"('Sri Lanka', 'Malaysia')",1
+"('Sri Lanka', 'Viet Nam')",1
+"('Sri Lanka', 'India')",1
+"('Sri Lanka', 'Sri Lanka')",1
+"('South Africa', 'South Africa')",5
+"('Palestine', 'Palestine')",1
+"('Germany', 'Germany')",5
+"('India', 'Japan')",1
+"('India', 'France')",1
+"('France', 'Africa')",1
+"('France', 'Asia')",1
+"('Ireland', 'Europe')",1
+"('Ireland', 'Africa')",1
+"('Ireland', 'Asia')",1
+"('Ireland', 'Latin America and the Caribbean')",1
+"('Germany', 'Africa')",1
+"('Germany', 'Asia')",1
+"('Mauritius', 'Mauritius')",2
+"('Mauritius', 'India')",1
+"('Mauritius', 'France')",1
+"('Mauritius', 'Europe')",1
+"('Mauritius', 'Australia')",1
+"('Mauritius', 'South Africa')",1
+"('Mauritius', 'Africa')",1
+"('South Africa', 'Mauritius')",1
+"('Egypt', 'Egypt')",1
+"('Norway', 'Russian Federation')",2
+"('Turkey', 'Arctic')",1
+"('Turkey', 'Norway')",1
+"('Russian Federation', 'United Kingdom')",3
+"('United Kingdom', 'Russian Federation')",2
+"('United States of America', 'Russian Federation')",9
+"('United States of America', 'Argentina')",1
+"('Argentina', 'Russian Federation')",1
+"('Argentina', 'Argentina')",1
+"('Canada', 'Arctic')",4
+"('Czechia', 'Arctic')",1
+"('Netherlands', 'Arctic')",1
+"('Netherlands', 'Norway')",1
+"('Germany', 'Arctic')",2
+"('Germany', 'Norway')",1
+"('India', 'Australia')",1
+"('China', 'China')",7
+"('United Kingdom', 'Arctic')",2
+"('United Kingdom', 'United States of America')",7
+"('Norway', 'United States of America')",2
+"('Sweden', 'United States of America')",2
+"('Finland', 'Arctic')",2
+"('Germany', 'Sweden')",1
+"('China', 'Antarctica')",2
+"('China', 'United States of America')",2
+"('China', 'Russian Federation')",3
+"('China', 'Arctic')",6
+"('South Africa', 'China')",1
+"('South Africa', 'Russian Federation')",1
+"('France', 'Italy')",1
+"('France', 'Spain')",2
+"('United Kingdom', 'Italy')",1
+"('United Kingdom', 'Spain')",1
+"('Norway', 'Italy')",1
+"('Norway', 'Spain')",1
+"('Poland', 'Arctic')",1
+"('Russian Federation', 'Czechia')",1
+"('Russian Federation', 'Slovakia')",1
+"('Russian Federation', 'Germany')",1
+"('Russian Federation', 'Austria')",1
+"('Russian Federation', 'Poland')",3
+"('Russian Federation', 'Lithuania')",1
+"('Russian Federation', 'Latin America and the Caribbean')",2
+"('Russian Federation', 'Mexico')",3
+"('Russian Federation', 'Italy')",2
+"('Russian Federation', 'Denmark')",1
+"('Russian Federation', 'Ukraine')",2
+"('United States of America', 'Arctic')",6
+"('United States of America', 'Ukraine')",1
+"('Germany', 'Cyprus')",1
+"('Germany', 'Egypt')",1
+"('Germany', 'Iran')",1
+"('Germany', 'Israel')",1
+"('Germany', 'Pakistan')",1
+"('Germany', 'Palestine')",1
+"('Germany', 'Turkey')",1
+"('Germany', 'Jordan')",1
+"('Netherlands', 'United Kingdom')",1
+"('Hungary', 'Hungary')",1
+"('Hungary', 'Germany')",1
+"('Hungary', 'Italy')",1
+"('Hungary', 'Austria')",1
+"('Russian Federation', 'Switzerland')",2
+"('Russian Federation', 'Israel')",1
+"('France', 'Brazil')",1
+"('France', 'France')",3
+"('France', 'Germany')",2
+"('France', 'United Kingdom')",1
+"('France', 'United States of America')",2
+"('Colombia', 'Argentina')",1
+"('Colombia', 'Brazil')",1
+"('Colombia', 'Chile')",1
+"('Colombia', 'Colombia')",2
+"('Colombia', 'Mexico')",1
+"('Colombia', 'Spain')",1
+"('Belgium', 'Southern Asia')",1
+"('Belgium', 'India')",1
+"('Iran', 'Europe')",1
+"('Iran', 'Kazakhstan')",1
+"('Italy', 'Eastern Europe')",1
+"('Italy', 'Southern Europe')",1
+"('Belgium', 'Eastern Europe')",1
+"('Belgium', 'Southern Europe')",1
+"('United States of America', 'Turkey')",3
+"('United States of America', 'Europe')",6
+"('Sweden', 'Sweden')",1
+"('Japan', 'India')",1
+"('Greenland', 'Arctic')",1
+"('Denmark', 'Arctic')",2
+"('Switzerland', 'Russian Federation')",1
+"('Turkey', 'Turkey')",2
+"('United States of America', 'Antarctica')",5
+"('United States of America', 'France')",1
+"('United States of America', 'South Africa')",2
+"('United States of America', 'Eastern Asia')",2
+"('United States of America', 'South-eastern Asia')",1
+"('Germany', 'Japan')",1
+"('Germany', 'Eastern Asia')",1
+"('Canada', 'Canada')",1
+"('Canada', 'India')",1
+"('Canada', 'Norway')",1
+"('Canada', 'United Kingdom')",1
+"('Mexico', 'United States of America')",2
+"('United States of America', 'China')",8
+"('Portugal', 'Sub-Saharan Africa')",2
+"('Czechia', 'Czechia')",3
+"('Czechia', 'Slovakia')",3
+"('Czechia', 'Russian Federation')",4
+"('Czechia', 'Sweden')",1
+"('United Kingdom', 'Brazil')",1
+"('Hungary', 'United States of America')",1
+"('Hungary', 'Brazil')",1
+"('Germany', 'Switzerland')",2
+"('Germany', 'Eastern Europe')",1
+"('Germany', 'Western Europe')",1
+"('Germany', 'Czechia')",1
+"('Germany', 'Slovakia')",1
+"('Belgium', 'United States of America')",2
+"('India', 'Southern Asia')",1
+"('India', 'Afghanistan')",1
+"('India', 'Bangladesh')",1
+"('India', 'Bhutan')",1
+"('India', 'Maldives')",1
+"('India', 'Myanmar')",1
+"('India', 'Nepal')",1
+"('India', 'Pakistan')",1
+"('India', 'Sri Lanka')",1
+"('North Macedonia', 'Albania')",1
+"('North Macedonia', 'Bosnia and Herzegovina')",1
+"('North Macedonia', 'Bulgaria')",1
+"('North Macedonia', 'Croatia')",1
+"('North Macedonia', 'Montenegro')",1
+"('North Macedonia', 'North Macedonia')",1
+"('North Macedonia', 'Romania')",1
+"('North Macedonia', 'Serbia')",1
+"('North Macedonia', 'Slovenia')",1
+"('North Macedonia', 'Greece')",1
+"('North Macedonia', 'Turkey')",1
+"('Switzerland', 'Albania')",1
+"('Switzerland', 'Bosnia and Herzegovina')",1
+"('Switzerland', 'Bulgaria')",1
+"('Switzerland', 'Croatia')",2
+"('Switzerland', 'Montenegro')",1
+"('Switzerland', 'North Macedonia')",1
+"('Switzerland', 'Romania')",1
+"('Switzerland', 'Serbia')",1
+"('Switzerland', 'Slovenia')",1
+"('Switzerland', 'Greece')",1
+"('Switzerland', 'Turkey')",1
+"('Russian Federation', 'France')",3
+"('France', 'Russian Federation')",2
+"('United States of America', 'Americas')",1
+"('United States of America', 'Mexico')",3
+"('United States of America', 'Latin America and the Caribbean')",1
+"('United States of America', 'Central Asia')",1
+"('United States of America', 'Southern Asia')",1
+"('Brazil', 'Guatemala')",1
+"('Brazil', 'El Salvador')",1
+"('Brazil', 'Honduras')",1
+"('Brazil', 'Western Europe')",1
+"('Brazil', 'United States of America')",2
+"('Japan', 'Japan')",5
+"('Sweden', 'France')",1
+"('France', 'China')",1
+"('Turkey', 'Germany')",1
+"('Turkey', 'China')",1
+"('India', 'Germany')",1
+"('India', 'Russian Federation')",1
+"('India', 'United States of America')",2
+"('Australia', 'Australia')",1
+"('Netherlands', 'Germany')",1
+"('Netherlands', 'Netherlands')",1
+"('Germany', 'Netherlands')",1
+"('Spain', 'Spain')",1
+"('Luxembourg', 'Germany')",1
+"('Luxembourg', 'Switzerland')",1
+"('Poland', 'Poland')",2
+"('Poland', 'Eastern Europe')",1
+"('Poland', 'France')",1
+"('Poland', 'Czechia')",1
+"('Norway', 'Europe')",3
+"('Mexico', 'Mexico')",1
+"('United Kingdom', 'Germany')",1
+"('United Kingdom', 'Norway')",1
+"('United Kingdom', 'Denmark')",1
+"('United Kingdom', 'Netherlands')",1
+"('United Kingdom', 'Belgium')",1
+"('United Kingdom', 'France')",1
+"('Czechia', 'United States of America')",1
+"('Germany', 'Russian Federation')",1
+"('Russian Federation', 'Spain')",1
+"('Russian Federation', 'Antarctica')",1
+"('Russian Federation', 'Europe')",4
+"('Kazakhstan', 'Europe')",1
+"('Kazakhstan', 'Kazakhstan')",2
+"('Norway', 'China')",2
+"('Belgium', 'Norway')",1
+"('Belgium', 'Sweden')",1
+"('Belgium', 'Denmark')",1
+"('Belgium', 'Finland')",1
+"('Belgium', 'Russian Federation')",1
+"('Belgium', 'Estonia')",1
+"('Belgium', 'Latvia')",1
+"('Belgium', 'Lithuania')",1
+"('Belgium', 'Poland')",1
+"('Belgium', 'Germany')",1
+"('Iraq', 'United States of America')",1
+"('United States of America', 'Japan')",3
+"('India', 'China')",1
+"('India', 'Arctic')",1
+"('India', 'Antarctica')",1
+"('Canada', 'Bolivia')",1
+"('Canada', 'South Africa')",1
+"('Canada', 'Panama')",1
+"('United States of America', 'Bolivia')",1
+"('United States of America', 'Panama')",1
+"('Russian Federation', 'Eastern Europe')",1
+"('Russian Federation', 'Western Europe')",1
+"('Germany', 'France')",1
+"('Iran', 'Malaysia')",1
+"('Malaysia', 'Iran')",1
+"('Canada', 'Russian Federation')",1
+"('Czechia', 'Eastern Europe')",2
+"('Switzerland', 'Europe')",2
+"('Switzerland', 'Switzerland')",2
+"('United States of America', 'Barbados')",1
+"('Russian Federation', 'Belarus')",2
+"('Austria', 'Russian Federation')",1
+"('Indonesia', 'Philippines')",1
+"('Indonesia', 'Viet Nam')",1
+"('Indonesia', 'China')",1
+"('Indonesia', 'Brunei')",1
+"('Indonesia', 'Taiwan')",1
+"('Russian Federation', 'Africa')",1
+"('Russian Federation', 'Asia')",1
+"('Russian Federation', 'Northern America')",1
+"('Russian Federation', 'Sweden')",1
+"('Russian Federation', 'Armenia')",1
+"('Russian Federation', 'Kazakhstan')",1
+"('Russian Federation', 'Turkmenistan')",1
+"('Russian Federation', 'Azerbaijan')",1
+"('Russian Federation', 'Moldova')",1
+"('Russian Federation', 'Uzbekistan')",1
+"('Russian Federation', 'Tajikistan')",1
+"('Russian Federation', 'Kyrgyzstan')",1
+"('Russian Federation', 'Brazil')",1
+"('Russian Federation', 'South Africa')",1
+"('United Kingdom', 'Africa')",1
+"('Denmark', 'Europe')",2
+"('Denmark', 'Africa')",1
+"('Austria', 'Europe')",1
+"('Austria', 'Africa')",1
+"('New Zealand', 'Australia')",1
+"('New Zealand', 'South Africa')",1
+"('Malaysia', 'Antarctica')",3
+"('Czechia', 'Poland')",1
+"('Czechia', 'Germany')",1
+"('Iceland', 'Arctic')",1
+"('Iceland', 'China')",1
+"('Iceland', 'Europe')",1
+"('Iceland', 'United States of America')",1
+"('Sweden', 'China')",1
+"('Sweden', 'Europe')",1
+"('Canada', 'China')",1
+"('Canada', 'Europe')",1
+"('Canada', 'United States of America')",1
+"('Denmark', 'China')",1
+"('Denmark', 'United States of America')",1
+"('United States of America', 'Germany')",3
+"('Malaysia', 'Arctic')",1
+"('United States of America', 'Canada')",1
+"('United States of America', 'Denmark')",1
+"('United States of America', 'Greenland')",1
+"('United States of America', 'Norway')",1
+"('China', 'Canada')",1
+"('China', 'Denmark')",1
+"('China', 'Greenland')",1
+"('China', 'Norway')",1
+"('China', 'Europe')",1
+"('Poland', 'United States of America')",1
+"('India', 'Denmark')",1
+"('Australia', 'Chile')",1
+"('Australia', 'Antarctica')",1
+"('United States of America', 'Egypt')",2
+"('United States of America', 'Jordan')",2
+"('United States of America', 'Lebanon')",1
+"('United States of America', 'Libya')",1
+"('United States of America', 'Syria')",1
+"('United States of America', 'United Kingdom')",2
+"('United States of America', 'Malta')",1
+"('Australia', 'United Kingdom')",1
+"('Australia', 'Indonesia')",1
+"('Australia', 'United States of America')",1
+"('Singapore', 'Slovenia')",1
+"('Singapore', 'Denmark')",1
+"('Singapore', 'United States of America')",1
+"('New Zealand', 'Antarctica')",1
+"('Japan', 'United States of America')",1
+"('Japan', 'China')",1
+"('Japan', 'South Korea')",1
+"('United States of America', 'Northern America')",2
+"('United States of America', 'Sierra Leone')",1
+"('United Kingdom', 'Sierra Leone')",1
+"('India', 'Europe')",1
+"('India', 'Sierra Leone')",1
+"('Switzerland', 'Sierra Leone')",1
+"('Switzerland', 'United States of America')",1
+"('Italy', 'Sierra Leone')",1
+"('Spain', 'Europe')",1
+"('Spain', 'Sierra Leone')",1
+"('Spain', 'United States of America')",1
+"('Turkey', 'Europe')",1
+"('Turkey', 'Sierra Leone')",1
+"('Turkey', 'United States of America')",1
+"('South Africa', 'Sierra Leone')",1
+"('South Africa', 'United States of America')",1
+"('Japan', 'Northern Africa')",1
+"('Japan', 'Mauritania')",1
+"('Japan', 'Sudan')",1
+"('Japan', 'Lebanon')",1
+"('Japan', 'Palestine')",1
+"('Japan', 'Iraq')",1
+"('Japan', 'Iran')",1
+"('Japan', 'Kuwait')",1
+"('Japan', 'Yemen')",1
+"('Japan', 'Djibouti')",1
+"('Japan', 'Oman')",1
+"('Japan', 'Qatar')",1
+"('Japan', 'Afghanistan')",1
+"('Japan', 'Saudi Arabia')",1
+"('Japan', 'United Arab Emirates')",1
+"('Japan', 'Morocco')",1
+"('Japan', 'Algeria')",1
+"('Japan', 'Tunisia')",1
+"('Japan', 'Libya')",1
+"('Japan', 'Egypt')",1
+"('United States of America', 'Singapore')",1
+"('Hungary', 'Jordan')",1
+"('United States of America', 'Israel')",1
+"('United States of America', 'Palestine')",1
+"('Switzerland', 'China')",1
+"('United States of America', 'Switzerland')",1
+"('China', 'Switzerland')",1
+"('United States of America', 'Yemen')",1
+"('United States of America', 'Eastern Europe')",1
+"('United States of America', 'Poland')",1
+"('United States of America', 'Czechia')",1
+"('United States of America', 'Slovakia')",1
+"('United States of America', 'Hungary')",1
+"('United States of America', 'Bulgaria')",1
+"('United States of America', 'Bosnia and Herzegovina')",1
+"('United States of America', 'North Macedonia')",1
+"('United States of America', 'Montenegro')",1
+"('United States of America', 'Serbia')",1
+"('United States of America', 'Slovenia')",1
+"('United States of America', 'Africa')",1
