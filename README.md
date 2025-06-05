@@ -20,7 +20,7 @@ Using **network analysis** and **large language model-enhanced bibliometric tech
 ├── data/
 │   ├── akh_v5_1209_final_worksheet.xlsx
 │   │   └── Primary dataset used for bibliometric analysis
-│   └── 2072024_Countries aggregated_BG-3007 - UN Geoscheme.csv
+│   └── 22072024_Countries aggregated_BG-3007 - UN Geoscheme.csv
 │       └── Country groupings based on UN Geoscheme
 │
 ├── networks/
@@ -35,8 +35,9 @@ Using **network analysis** and **large language model-enhanced bibliometric tech
 ```
 ## 📄 Key Dataset Files
 
-- 📊 [akh_v5_1209_final_worksheet.xlsx](./akh_v5_1209_final_worksheet.xlsx): Main dataset used for the bibliometric review and network construction  
-- 🌍 [2072024_Countries aggregated_BG-3007 - UN Geoscheme.csv](<./2072024_Countries aggregated_BG-3007 - UN Geoscheme.csv>): Country-to-region mapping based on the UN Geoscheme
+- 📊 [akh_v5_1209_final_worksheet.xlsx](./akh_v5_1209_final_worksheet.xlsx): Main dataset used for the bibliometric review and network construction (Excel)
+- 📊 [akh_v5_1209_final_worksheet.csv](./akh_v5_1209_final_worksheet.csv): Main dataset used for the bibliometric review and network construction (CSV)
+- 🌍 [22072024_Countries aggregated_BG-3007 - UN Geoscheme.csv](<./22072024_Countries aggregated_BG-3007 - UN Geoscheme.csv>): Country-to-region mapping based on the UN Geoscheme
 
 ## 🌐 Interactive Networks
 
@@ -45,7 +46,7 @@ Interactive versions of the collaboration networks can be accessed through the l
 - **Author Collaboration Network**  
   [https://brunogrisci.github.io/scidip/authornet_2002_2023.html](https://brunogrisci.github.io/scidip/authornet_2002_2023.html)
 
-- **Region Collaboration Network**  
+- **Region Targeted Network**  
   [https://brunogrisci.github.io/scidip/regionnet_2002_2023.html](https://brunogrisci.github.io/scidip/regionnet_2002_2023.html)
 
 These interactive visualizations allow users to explore nodes, relationships, and centrality values dynamically in their web browsers. They complement the static PDF and GEXF network files stored in the `networks/` folder.
