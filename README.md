@@ -36,7 +36,7 @@ Using **network analysis** and **large language model-enhanced bibliometric tech
 ## 📄 Key Dataset Files
 
 - 📊 [akh_v5_1209_final_worksheet.xlsx](./akh_v5_1209_final_worksheet.xlsx): Main dataset used for the bibliometric review and network construction  
-- 🌍 [2072024_Countries aggregated_BG-3007 - UN Geoscheme.csv](./2072024_Countries%20aggregated_BG-3007%20-%20UN%20Geoscheme.csv): Country-to-region mapping based on the UN Geoscheme
+- 🌍 [2072024_Countries aggregated_BG-3007 - UN Geoscheme.csv](<./2072024_Countries aggregated_BG-3007 - UN Geoscheme.csv>): Country-to-region mapping based on the UN Geoscheme
 
 ## 🌐 Interactive Networks
 
