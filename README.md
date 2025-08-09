@@ -2,8 +2,7 @@
 
 This repository contains the scripts, data, and results associated with the study:
 
-**Name (2025)**  
-*Science Diplomacy: A Global Research Field? Findings from a Bibliometric Analysis of the Science Diplomacy Scholarship of the Past Twenty Years.*
+Rüland, AL., Andersen, L.H., Hassen, A., Kinyanjui, C., Ralfs, A., Grisci, B.I. _Science diplomacy: A global research field? Findings from a bibliometric analysis of the science diplomacy scholarship of the past twenty years._ **Scientometrics** (2025). [https://doi.org/10.1007/s11192-025-05396-x](https://doi.org/10.1007/s11192-025-05396-x)
 
 ## 🧾 Abstract
 
@@ -55,4 +54,11 @@ These interactive visualizations allow users to explore nodes, relationships, an
 
 If you use this repository, the data, or visualizations in your own work, please cite the following study:
 
+Rüland, AL., Andersen, L.H., Hassen, A., Kinyanjui, C., Ralfs, A., Grisci, B.I. _Science diplomacy: A global research field? Findings from a bibliometric analysis of the science diplomacy scholarship of the past twenty years._ **Scientometrics** (2025). [https://doi.org/10.1007/s11192-025-05396-x](https://doi.org/10.1007/s11192-025-05396-x)
+
+
 ## 📬 Contact
+
+**Anna-Lena Rüland**: [mailto:a.ruland@ucl.ac.uk](a.ruland@ucl.ac.uk)
+
+**Bruno Iochins Grisci**: [mailto:bigrisci@inf.ufrgs.br](bigrisci@inf.ufrgs.br)

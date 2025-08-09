@@ -1,0 +1,239 @@
+Review of the manuscript "Escaping the Forest: A Sparse, Interpretable, and Foundational Neural Network Alternative for Tabular Data."
+
+[INSERT SUMMARY OF THE MANUSCRIPT HERE]
+
+[SAY THAT THE MANUSCRIPT IS INTERESTING AND RELEVANT, SPECIALLY FOR BRIDGING THE GAP BETWEEN DEEP LEARNING AND TABULAR DATA, BUT THAT THERE ARE MANY ISSUES THAT MUST BE ADDRESSED BEFORE ACCEPTANCE]
+
+Issues:
+
+#####################
+
+The main issue of the manuscript is the lack of acknowledge, recognition, and comparison with several prior works dealing with the same or similar topics (deep learning for tabular data, feature selection based on neural networks, interpretability of neural networks trained on tabular data, etc.). The authors framed their work as more original or inedit than it really is. There is even a work from 2021 on an architecture called TabNet from which one could assume the authors derived the name STabNet, even though the original TabNet paper is not cited in the manuscript.
+
+Below I list several works that dealt on the same problems discussed in the text and that should be propoerly discussed in the text, as well as compared to. The main advantages or disadvantegs of sTabNet regarding these works must be discussed.
+
+Arik, Sercan Ö., and Tomas Pfister. "Tabnet: Attentive interpretable tabular learning." Proceedings of the AAAI conference on artificial intelligence. Vol. 35. No. 8. 2021.
+
+Shah, Chiranjibi, Qian Du, and Yan Xu. "Enhanced TabNet: Attentive interpretable tabular learning for hyperspectral image classification." Remote Sensing 14.3 (2022): 716.
+
+Whiteson, Shimon, et al. "Automatic feature selection in neuroevolution." Proceedings of the 7th annual conference on Genetic and evolutionary computation. 2005.
+
+Grisci, Bruno Iochins, Bruno César Feltes, and Marcio Dorn. "Neuroevolution as a tool for microarray gene expression pattern identification in cancer research." Journal of biomedical informatics 89 (2019): 122-133.
+
+Grisci, Bruno Iochins, Mathias J. Krause, and Marcio Dorn. "Relevance aggregation for neural networks interpretability and knowledge discovery on tabular data." Information sciences 559 (2021): 111-129.
+
+Singh, Dinesh, et al. "Fsnet: Feature selection network on high-dimensional biological data." 2023 International joint conference on neural networks (IJCNN). IEEE, 2023.
+
+Gui, Ning, Danni Ge, and Ziyin Hu. "AFS: An attention-based mechanism for supervised feature selection." Proceedings of the AAAI conference on artificial intelligence. Vol. 33. No. 01. 2019.
+
+Figueroa Barraza, Joaquín, Enrique López Droguett, and Marcelo Ramos Martins. "Towards interpretable deep learning: a feature selection framework for prognostics and health management using deep neural networks." Sensors 21.17 (2021): 5888.
+
+#####################
+
+The authors say that "the lack of a tabular benchmark has made it difficult to compare different methods". However, there are benchmarks available for this task, such as CuMiDa and Barra:CuRDa.
+
+Feltes, Bruno Cesar, et al. "Cumida: An extensively curated microarray database for benchmarking and testing of machine learning approaches in cancer research." Journal of Computational Biology 26.4 (2019): 376-386.
+
+Feltes, Bruno Cesar, Joice De Faria Poloni, and Marcio Dorn. "Benchmarking and testing machine learning approaches with BARRA: CuRDa, a curated RNA-seq database for cancer research." Journal of Computational Biology 28.9 (2021): 931-944.
+
+These would be good datasets to test and validate the proposed method.
+
+####################
+
+What is the rational for the method described in Section 3? It is not clear why and how the authors made de design decisions.
+
+####################
+
+Line 130: "We also tested sTabNeton real and complex datasets, such as multi-omics, single cells, multiclass classification, and survival regression, comparing them with decision trees (Fig. 1E)."
+
+Did the authors compare their method with decision trees or XGBoost?
+
+####################
+
+Line 174: "These results show that the attention weight can be considered a feature importance score."
+
+Please rewrite this section properly discussing and contextualizing your work on the light of the following papers:
+
+Jain, Sarthak, and Byron C. Wallace. "Attention is not explanation." arXiv preprint arXiv:1902.10186 (2019).
+
+Bibal, Adrien, et al. "Is attention explanation? an introduction to the debate." Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.
+
+Grimsley, Christopher, Elijah Mayfield, and Julia Bursten. "Why attention is not explanation: Surgical intervention and causal reasoning about neural models." (2020).
+
+Bastings, Jasmijn, and Katja Filippova. "The elephant in the interpretability room: Why use attention as explanation when we have saliency methods?." arXiv preprint arXiv:2010.05607 (2020).
+
+####################
+
+Line 187: "Thus, we did not include ulterior experiments with a fully connected neural network in this study due to this triviality. Neither the convolutional neural network is showing satisfying performances (Fig. 3A)."
+
+Please provide evidence for this claim and also explain it in details in the text.
+
+####################
+
+Line 192: "Since we do not have the ground truth for feature importance for this dataset, we have selected the 100 features with the highest attention weights, and we conducted a gene-set enrichment [21] for diseases on this feature subset."
+
+Please provide more details about this experiment setup.
+
+####################
+
+Part of the validation of this method was done using genomic and transcriptomic data. The authors should provide more details about the data and the biological results, besides the gene ontology. Have the experiments followed the guidelines listed by the reference below:
+
+Grisci, Bruno I., et al. "The use of gene expression datasets in feature selection research: 20 years of inherent bias?." Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 14.2 (2024): e1523.
+
+####################
+
+Line 251: "Despite not conducting a hyperparameter search and using a simple architecture, the sTabNet is shown to outperform the tree-based model: median accuracy 0.71 versus 0.70 (Fig. 4B and supplementary table 5, and Fig. S7-8)."
+
+The difference in accuracy is too low to claim that the method "outperform the tree-based model." Moreover, there is no test of statistic significance for the results. 
+
+####################
+
+Is the use of accuracy adequate? Are all datasets balanced so that accuracy is not a biased metric?
+
+####################
+
+One important aspect of such methods as the one proposed is their stability and reliability. However, there are no results on this aspect. See reference below.
+
+Barbieri, Matheus Cezimbra, Bruno Iochins Grisci, and Márcio Dorn. "Analysis and comparison of feature selection methods towards performance and stability." Expert Systems with Applications (2024): 123667.
+
+####################
+
+The text could be overall revised and complemented to include more information in a clearer way.
+
+####################
+
+There are many typos in the text. The authors should do a proper revision and rewriting of the text for clarity and correctude. Some examples:
+
+Line 52: "the tabular problem in hand with little to no training or fin-tuning."
+
+Line 95: The use of the term "grouping/clustering" or "groups/clusters" is inadequate. The authors should choose one form and stick to it.
+
+Line 99: "Figure ?? shows the comparison"
+
+Line 149: "the model where almost doing a random guessing"
+
+Line 250: "a simple method to impose sparsitybefore training"
+
+Line 292: "*define* our sTabNet"
+
+Line 404: "technical details For the METABRIC dataset"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+Review of the manuscript “Escaping the Forest: A Sparse, Interpretable, and Foundational Neural Network Alternative for Tabular Data.”
+
+The authors propose sTabNet, a meta-generative framework that first constructs a sparse feed-forward architecture—either from domain knowledge or an unsupervised random-walk procedure on a feature-similarity graph—and then trains it with a lightweight attention module so that attention scores serve directly as feature-importance estimates. They evaluate the approach on synthetic benchmarks with known ground-truth feature relevance, on several biomedical RNA-seq and multi-omics datasets (METABRIC, TCGA-BRCA, TCGA-LUAD), on single-cell datasets, and on survival-analysis tasks. Reported results suggest that sTabNet (i) matches or slightly surpasses tree-based baselines such as XGBoost on classification, (ii) transfers across related “in-domain” and “out-of-domain” datasets with minimal fine-tuning, and (iii) yields biologically meaningful attention scores that highlight cancer-related genes. The manuscript therefore aims to offer a unified, scalable, and inherently interpretable neural alternative to classical ensemble models for tabular data.
+
+The topic is timely and highly relevant: bridging the persistent performance/interpretability gap between deep learning and tabular-data problems is important for both industrial and biomedical applications. The manuscript is interesting and shows promise—but there are numerous substantive, methodological, and presentation issues that must be addressed before the work can be considered for publication.
+Issues
+
+The main issue: The manuscript does not adequately acknowledge or compare with much of the rich prior literature on deep tabular models, neural-network feature selection, and neural interpretability. Consequently its originality is overstated. Even the name sTabNet invites comparison with the 2021 architecture TabNet, yet TabNet is not cited.
+
+Works that must be discussed and empirically compared include, at minimum:
+
+- Arik, Sercan Ö., and Tomas Pfister. "Tabnet: Attentive interpretable tabular learning." Proceedings of the AAAI conference on artificial intelligence. Vol. 35. No. 8. 2021.
+- Shah, Chiranjibi, Qian Du, and Yan Xu. "Enhanced TabNet: Attentive interpretable tabular learning for hyperspectral image classification." Remote Sensing 14.3 (2022): 716.
+- Whiteson, Shimon, et al. "Automatic feature selection in neuroevolution." Proceedings of the 7th annual conference on Genetic and evolutionary computation. 2005.
+- Grisci, Bruno Iochins, et al. "Neuroevolution as a tool for microarray gene expression pattern identification in cancer research." Journal of biomedical informatics 89 (2019): 122-133.
+- Grisci, Bruno Iochins, et al. "Relevance aggregation for neural networks interpretability and knowledge discovery on tabular data." Information sciences 559 (2021): 111-129.
+- Singh, Dinesh, et al. "Fsnet: Feature selection network on high-dimensional biological data." 2023 International joint conference on neural networks (IJCNN). IEEE, 2023.
+- Gui, Ning, Danni Ge, and Ziyin Hu. "AFS: An attention-based mechanism for supervised feature selection." Proceedings of the AAAI conference on artificial intelligence. Vol. 33. No. 01. 2019.
+- Figueroa Barraza, Joaquín, Enrique López Droguett, and Marcelo Ramos Martins. "Towards interpretable deep learning: a feature selection framework for prognostics and health management using deep neural networks." Sensors 21.17 (2021): 5888.
+
+===========================
+
+The text states that “the lack of a tabular benchmark has made it difficult to compare different methods”; yet curated benchmarks such as CuMiDa and Barra:CuRDa already exist. These databases should be included in the experimental protocol:
+
+- Feltes, Bruno Cesar, et al. "Cumida: An extensively curated microarray database for benchmarking and testing of machine learning approaches in cancer research." Journal of Computational Biology 26.4 (2019): 376-386.
+- Feltes, Bruno Cesar, et al. "Benchmarking and testing machine learning approaches with BARRA: CuRDa, a curated RNA-seq database for cancer research." Journal of Computational Biology 28.9 (2021): 931-944.
+
+The design rationale for the sparsity-inducing algorithm is vague. Readers need a precise description of:
+how cluster sizes / walk lengths are chosen;
+how sparsity levels affect model capacity;
+computational overhead relative to dense baselines.
+
+===========================
+
+Line-specific comments
+
+    L130 — clarify whether comparisons were made against decision-tree models or the stronger XGBoost baseline.
+
+    L174 — the statement that “attention weight can be considered a feature importance score” must be tempered by recent “attention-is-not-explanation” literature:
+
+    - Jain, Sarthak, and Byron C. Wallace. "Attention is not explanation." arXiv preprint arXiv:1902.10186 (2019).
+    - Bibal, Adrien, et al. "Is attention explanation? an introduction to the debate." Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2022.
+    - Grimsley, Christopher, Elijah Mayfield, and Julia Bursten. "Why attention is not explanation: Surgical intervention and causal reasoning about neural models." (2020).
+    - Bastings, Jasmijn, and Katja Filippova. "The elephant in the interpretability room: Why use attention as explanation when we have saliency methods?." arXiv preprint arXiv:2010.05607 (2020).
+
+    L187 — claims about fully-connected and convolutional networks performing “poorly” need supporting numbers and discussion.
+
+    L192 — provide complete details of the gene-set-enrichment setup (tool versions, p-value cut-offs, multiple-test correction).
+
+    L251 — the reported median accuracy improvement of 0.01 over XGBoost is too small to claim superiority; statistical significance tests (e.g., Wilcoxon signed-rank) are required.
+
+===========================
+
+Have the experiments followed the guidelines listed by the reference below? Please discuss how so in the main text.
+
+Grisci, Bruno I., et al. "The use of gene expression datasets in feature selection research: 20 years of inherent bias?." Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery 14.2 (2024): e1523.
+
+===========================
+
+Clarify whether all datasets are class-balanced; if not, accuracy is an inappropriate primary metric.
+
+===========================
+
+The study does not address stability and reliability of the selected features (see Barbieri, Matheus Cezimbra et al. "Analysis and comparison of feature selection methods towards performance and stability." Expert Systems with Applications (2024): 123667.).
+
+===========================
+
+The manuscript would benefit from a thorough language edit to fix many typographical and grammatical errors, e.g.:
+
+    L52 “fin-tuning” → fine-tuning
+
+    L95: The use of the term "grouping/clustering" or "groups/clusters" is inadequate. The authors should choose one of the forms.
+
+    L99 “Figure ?? shows” → correct figure reference
+
+    L149 “where almost doing a random guessing” → were almost performing random guessing
+
+    L250 “sparsitybefore” → sparsity before
+
+    L292 “define our sTabNet” → remove stray formatting
+
+    L404 “technical details For the METABRIC dataset” → lowercase for
+
+===========================
+
+Recommendation
+
+The submission tackles an important problem and introduces creative ideas, but major revisions are required. In particular, the authors must (i) position sTabNet against established deep-tabular baselines, (ii) strengthen experimental evidence with statistical tests and comprehensive benchmarks, (iii) incorporate recent interpretability literature, and (iv) revise the manuscript for clarity and correctness.
+
+If these concerns are thoroughly addressed, the work has the potential to make a valuable contribution to the field.
+
+

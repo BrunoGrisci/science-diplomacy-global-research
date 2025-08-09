@@ -15,6 +15,10 @@ from networkx.drawing.nx_agraph import graphviz_layout
 import numpy as np
 
 def plot_graph_pdf(G, output_path, node_size_map, color_map):
+   
+
+
+
     plt.figure(figsize=(20, 20))
     ax = plt.gca()
 
