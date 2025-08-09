@@ -59,6 +59,6 @@ Rüland, AL., Andersen, L.H., Hassen, A., Kinyanjui, C., Ralfs, A., Grisci, B.I.
 
 ## 📬 Contact
 
-**Anna-Lena Rüland**: [mailto:a.ruland@ucl.ac.uk](a.ruland@ucl.ac.uk)
+**Anna-Lena Rüland**: a.ruland@ucl.ac.uk
 
-**Bruno Iochins Grisci**: [mailto:bigrisci@inf.ufrgs.br](bigrisci@inf.ufrgs.br)
+**Bruno Iochins Grisci**: bigrisci@inf.ufrgs.br
